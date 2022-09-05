@@ -1,0 +1,15 @@
+# Nombre maximum de claim par joueur (-1 = Pas de limitation)
+max_claim_count: -1
+# Prix d'achat d'une claim
+claim_cost: 100.0
+# Prix de vente d'une claim
+claim_sell: 50.0
+# Expiration des claims (La claim expire si le joueur ne s'est pas connecté depuis X temps)
+claim_expire: true
+expire_y: 0
+expire_m: 2
+expire_d: 0
+# Temps entre chaque vérifications des claims (En minutes) (Modifier uniquement si 'claim_expire' est défini sur true)
+check_reload: 60
+# Devise monetaire de votre serveur
+currency: "$"

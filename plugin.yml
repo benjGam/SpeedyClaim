@@ -1,0 +1,21 @@
+name: SpeedyClaim
+author: Mecopi
+version: 1.0
+main: fr.mecopi.speedyclaim.Main
+api-version: 1.13
+depend: [Vault]
+commands:
+  claim:
+    description: Permet a un joueur de definir une zone protegee.
+    usage: /claim <nom>
+  scdebug:
+    description: Permet au developpeur de verifier l'integrite du code.
+  undo:
+    description: Permet au joueur de revenir en arriere.
+    usage: /claim undo
+  unclaim:
+    description: Permet de vendre une parcelle.
+    usage: /unclaim <nom_de_parcelle>
+  sall:
+    description: Permet de vendre toutes vos parcelles.
+    usage: /claim sall
